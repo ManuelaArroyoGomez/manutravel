@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <title>Manu Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="font-Montserrat dark:bg-gray-900">
+    <nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between fixed z-10 dark:bg-gray-800">
+        <div class="h-auto w-auto">
+            <p class="text-xl text-primary font-black dark:dark:text-white">Manu Travel</p>
+        </div>
+        <div class="felx space-x-8">
+            <a class="font-bold text-md text-primary dark:dark:text-white" href="#home">Home</a>
+            <a class="font-bold text-md text-primary dark:dark:text-white" href="#recomendados">Recomendations</a>
+            <a class="font-bold text-md text-primary dark:dark:text-white" href="#rentas_destacadas">Stays</a>
+            <a class="font-bold text-md text-primary dark:dark:text-white" href="#faqs">FAQs</a>
+            <a class="font-bold text-md text-primary dark:dark:text-white" href="#sobre_nosotros">About Us</a>
+        </div>
+        <div class="flex space-x-4">
+            <svg width="20" height="20" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="fill-current text-primary dark:text-white" fill-rule="evenodd" clip-rule="evenodd" d="M9.91667 0.875C4.92309 0.875 0.875 4.92309 0.875 9.91667C0.875 14.9102 4.92309 18.9583 9.91667 18.9583C11.9476 18.9583 13.8221 18.2887 15.3316 17.1582L20.6284 22.4551C21.1328 22.9595 21.9507 22.9595 22.4551 22.4551C22.9595 21.9507 22.9595 21.1328 22.4551 20.6284L17.1582 15.3316C18.2887 13.8221 18.9583 11.9476 18.9583 9.91667C18.9583 4.92309 14.9102 0.875 9.91667 0.875ZM3.45833 9.91667C3.45833 6.34983 6.34983 3.45833 9.91667 3.45833C13.4835 3.45833 16.375 6.34983 16.375 9.91667C16.375 13.4835 13.4835 16.375 9.91667 16.375C6.34983 16.375 3.45833 13.4835 3.45833 9.91667Z" fill="#CC2D4A"/>
+                </svg>
+                <button id="toggle">
+                    <svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="fill-current dark:text-white" d="M15.293 11.293C13.8115 11.9631 12.161 12.1659 10.5614 11.8743C8.96173 11.5827 7.48893 10.8106 6.33918 9.66082C5.18943 8.51107 4.41732 7.03827 4.12573 5.43863C3.83413 3.839 4.03689 2.18849 4.707 0.707001C3.52756 1.24001 2.49503 2.0512 1.698 3.07096C0.900971 4.09072 0.363229 5.28862 0.130909 6.56189C-0.101411 7.83515 -0.0213717 9.14577 0.364159 10.3813C0.749689 11.6168 1.4292 12.7404 2.3444 13.6556C3.2596 14.5708 4.38316 15.2503 5.61869 15.6358C6.85423 16.0214 8.16485 16.1014 9.43811 15.8691C10.7114 15.6368 11.9093 15.099 12.929 14.302C13.9488 13.505 14.76 12.4724 15.293 11.293Z" fill="#CC2D4A"/>
+                        </svg>
+                </button>
+                    <svg width="20" height="20" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="fill-current text-gray-300 dark:text-white" fill-rule="evenodd" clip-rule="evenodd" d="M2.78225 17.6464C4.4799 15.2799 7.48651 13.4999 12.4999 13.4999C17.5132 13.4999 20.5199 15.2799 22.2175 17.6464C23.8582 19.9336 24.1196 22.5552 24.1248 24.0058C24.13 25.4645 22.9071 26.4166 21.6533 26.4166H3.34642C2.09262 26.4166 0.869709 25.4645 0.874956 24.0058C0.880174 22.5552 1.1415 19.9336 2.78225 17.6464Z" fill="#F2F2F2"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 10.9166C15.3535 10.9166 17.6667 8.60339 17.6667 5.74992C17.6667 2.89645 15.3535 0.583252 12.5 0.583252C9.64653 0.583252 7.33334 2.89645 7.33334 5.74992C7.33334 8.60339 9.64653 10.9166 12.5 10.9166Z" fill="#F2F2F2"/>
+                        </svg>
+        </div>
+    </nav>
+    <section class="w-full h-screen">
+        <div class="w-full h-3/4" id="home">
+            <div class="w-full h-full">
+                <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:items-start lg:pt-48 lg:justify-start">
+                    <input class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden" placeholder="San Francisco" type="search" name="" id="">
+                    <div class="hidden h-auto lg:w-2/5 lg:flex pb-6">
+                        <p class="text-4xl ml-16 font-bold text-black">Find More Locations like this</p>
+                    </div>
+                    <button class=" w-48 rounded-full text-lg text-primary shadow-sm font-semibold p-4 bg-white transition transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110 lg:ml-16 ">
+                        Explore More
+                    </button>
+                </div>
+                <div class="w-full h-full lg:h-full lg:bg-exploreMore lg:bg-cover lg:bg-center">
+                    <img class="lg:hidden" src="./assets/img/explore-more.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-auto" id="recomendados">
+            <p class="text-3xl font-semibold text-primary dark:text-white pl-6 pt-6">Our Recomendations</p>
+            <div class="w-auto h-72 items-center mt-6 p-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-gray-700">
+                        <p class="text-white text-bold text-xl px-4 pt-2 dark:text-white">Norway</p>
+                        <p class="text-white text-md px-4 dark:text-white">Beautiful landscapes</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-newYork bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-800">
+                        <p class="text-terciary text-bold text-xl px-4 pt-2 dark:text-white">New York</p>
+                        <p class="text-terciary text-md px-4 dark:text-white">Concrete jungle</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-yosemite bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-gray-700">
+                        <p class="text-white text-bold text-xl px-4 pt-2 dark:text-white">Yosemite</p>
+                        <p class="text-white text-md px-4 dark:text-white">A break from the world</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-seattle bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-800">
+                        <p class="text-terciary text-bold text-xl px-4 pt-2 dark:text-white">Seattle</p>
+                        <p class="text-terciary text-md px-4 dark:text-white">Big City</p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <div class="w-full h-3/5 bg-suiza bg-cover rounded-t-lg"></div>
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-gray-700">
+                        <p class="text-white text-bold text-xl px-4 pt-2 dark:text-white">Switzerland</p>
+                        <p class="text-white text-md px-4 dark:text-white">Big City</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-6 h-full w-full" id="rentas_destacadas">
+            <p class="text-3xl font-semibold pb-20 mt-6 text-primary dark:text-white">Trending Stays</p>
+            <div class="w-full h-full flex flex-col items-center justify-center">
+                <div class="w-full h-96 bg-chicago bg-cover rounded-xl mb-8 lg:bg-center lg:h-auto">
+                    <p class="CardTitle lg:text-white">Chicago</p>
+                    <p class="text-sm pl-8 text-white mr-24 lg:text-lg ">2 rooms, bathroom and kitchen.</p>
+                </div>
+                <div class="lg:flex lg:h-full lg:w-full lg:space-x-4">
+                    <div class="w-full h-96 bg-LA bg-cover rounded-xl mb-8 lg:text-lg lg:h-auto">
+                        <p class="CardTitle">Los Angeles</p>
+                        <p class="text-sm pl-8 text-white mr-24 lg:text-lg">4 rooms, 3 bathrooms,  kitchen and private pool.</p>
+                    </div>
+                    <div class="lg:h-full lg:w-full lg:flex lg:flex-col lg:pl-8">
+                        <div class="w-full h-96 bg-miami bg-cover rounded-xl mb-8">
+                            <p class="CardTitle">Miami</p>
+                            <p class="text-sm pl-8 text-white mr-24 lg-text-lg">3 rooms, 2 bathrooms,  kitchen and amazing sea view.</p>
+                        </div>
+                        <div class="w-full h-96 bg-bali bg-cover rounded-xl mb-8">
+                            <p class="CardTitle">Bali</p>
+                            <p class="text-sm pl-8 text-white mr-24 lg:text-lg">2 rooms, 2 bathrooms Kitchen and private pool.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-auto p-6 dark:text-white" id="faqs">
+            <div class="w-full h-full flex flex-col space-y-6">
+                <p class="text-3xl text-primary font-semibold mt-6 dark:text-white">FAQs</p>
+                <div>
+                    <p class="text-xl font-medium text-primary dark:text-white">Payment Methods</p>
+                    <p class="text-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance, We accept VISA, MasterCard, American Express, Paypal and Binance.</p>
+                </div>
+                <div>
+                    <p class="text-xl font-medium text-primary dark:text-white">Payment Methods</p>
+                    <p class="text-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance, We accept VISA, MasterCard, American Express, Paypal and Binance.</p>
+                </div>
+                <div>
+                    <p class="text-xl font-medium text-primary dark:text-white">Payment Methods</p>
+                    <p class="text-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance, We accept VISA, MasterCard, American Express, Paypal and Binance.</p>
+                </div>
+                <div>
+                    <p class="text-xl font-medium text-primary dark:text-white">Payment Methods</p>
+                    <p class="text-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance, We accept VISA, MasterCard, American Express, Paypal and Binance.</p>
+                </div>
+            </div>
+        </div>
+        <footer id="sobre_nosotros" class="w-full h-auto bg-gray-50 p-6 space-y-2 mt-8">
+            <p class="text-lg">Acerca De</p>
+            <p class="text-sm text-gray-300">About Us</p>
+            <p class="text-sm text-gray-300">Investors</p>
+            <p class="text-sm text-gray-300">Jobs</p>
+            <p class="text-sm text-gray-300">Terms and Conditions</p>
+            <p class="text-sm text-gray-300">Manu Travel, Inc.</p>
+        </footer>
+    </section>
+    <div class="w-full h-16 bg-white fixed left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center lg:hidden dark:bg-gray-800" id="tab_Bar">
+        <a href="#home">
+            <svg width="30" height="30" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="fill-current text-gray-200" d="M15.0159 1.03837C14.7669 0.754514 14.4034 0.588657 14.0189 0.583382C13.6344 0.578106 13.2662 0.733927 13.009 1.01084L1.00896 13.9275C0.656721 14.3067 0.567802 14.8511 0.782022 15.3171C0.996242 15.7831 1.47347 16.0833 2.00002 16.0833H4.66669V23.8333C4.66669 24.5466 5.26364 25.1249 6.00002 25.1249H11.3334V18.6666H16.6667V25.1249H22C22.7364 25.1249 23.3334 24.5466 23.3334 23.8333V16.0833H25.3334C25.8531 16.0833 26.3254 15.7907 26.5436 15.3337C26.7617 14.8768 26.6859 14.3387 26.3493 13.955L15.0159 1.03837Z" fill="#F2F2F2"/>
+                </svg>
+        </a>
+        <a href="#rentas_destacadas">
+            <svg width="30" height="30" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="fill-current text-primary" fill-rule="evenodd" clip-rule="evenodd" d="M9.91667 0.875C4.92309 0.875 0.875 4.92309 0.875 9.91667C0.875 14.9102 4.92309 18.9583 9.91667 18.9583C11.9476 18.9583 13.8221 18.2887 15.3316 17.1582L20.6284 22.4551C21.1328 22.9595 21.9507 22.9595 22.4551 22.4551C22.9595 21.9507 22.9595 21.1328 22.4551 20.6284L17.1582 15.3316C18.2887 13.8221 18.9583 11.9476 18.9583 9.91667C18.9583 4.92309 14.9102 0.875 9.91667 0.875ZM3.45833 9.91667C3.45833 6.34983 6.34983 3.45833 9.91667 3.45833C13.4835 3.45833 16.375 6.34983 16.375 9.91667C16.375 13.4835 13.4835 16.375 9.91667 16.375C6.34983 16.375 3.45833 13.4835 3.45833 9.91667Z" fill="#CC2D4A"/>
+                </svg>
+        </a>
+        <a href="#recomendados">
+            <svg width="30" height="30" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="fill-current text-gray-200" d="M5.88589 1.1598C8.69627 0.457033 10.5415 1.33633 11.6651 2.45988C11.7875 2.58226 11.9006 2.7068 12.0051 2.83153C12.1278 2.97802 12.3091 3.06265 12.5002 3.06265C12.6913 3.06265 12.8726 2.97802 12.9953 2.83153C13.0998 2.70679 13.2129 2.58225 13.3353 2.45988C14.4589 1.33629 16.3043 0.457053 19.1153 1.1598C21.9229 1.86173 24.0419 3.97284 24.7491 6.62517C25.461 9.29528 24.7249 12.433 21.9982 15.1597C18.9813 18.1766 16.4061 20.7531 14.7854 22.3748C13.5244 23.6366 11.4827 23.6372 10.2211 22.3759L3.00388 15.1597C0.276081 12.4324 -0.460027 9.29459 0.252171 6.62457C0.959605 3.9724 3.07894 1.86172 5.88589 1.1598Z" fill="#F2F2F2"/>
+                </svg>
+        </a>
+        <button id="toggle-Sm">
+            <svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="fill-current text-gray-200" d="M15.293 11.293C13.8115 11.9631 12.161 12.1659 10.5614 11.8743C8.96173 11.5827 7.48893 10.8106 6.33918 9.66082C5.18943 8.51107 4.41732 7.03827 4.12573 5.43863C3.83413 3.839 4.03689 2.18849 4.707 0.707001C3.52756 1.24001 2.49503 2.0512 1.698 3.07096C0.900971 4.09072 0.363229 5.28862 0.130909 6.56189C-0.101411 7.83515 -0.0213717 9.14577 0.364159 10.3813C0.749689 11.6168 1.4292 12.7404 2.3444 13.6556C3.2596 14.5708 4.38316 15.2503 5.61869 15.6358C6.85423 16.0214 8.16485 16.1014 9.43811 15.8691C10.7114 15.6368 11.9093 15.099 12.929 14.302C13.9488 13.505 14.76 12.4724 15.293 11.293Z" fill="#CC2D4A"/>
+                </svg>
+        </button>
+        <a href="">
+            <svg width="30" height="30" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="fill-current text-gray-200" fill-rule="evenodd" clip-rule="evenodd" d="M2.78225 17.6464C4.4799 15.2799 7.48651 13.4999 12.4999 13.4999C17.5132 13.4999 20.5199 15.2799 22.2175 17.6464C23.8582 19.9336 24.1196 22.5552 24.1248 24.0058C24.13 25.4645 22.9071 26.4166 21.6533 26.4166H3.34642C2.09262 26.4166 0.869709 25.4645 0.874956 24.0058C0.880174 22.5552 1.1415 19.9336 2.78225 17.6464Z" fill="#F2F2F2"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 10.9166C15.3535 10.9166 17.6667 8.60339 17.6667 5.74992C17.6667 2.89645 15.3535 0.583252 12.5 0.583252C9.64653 0.583252 7.33334 2.89645 7.33334 5.74992C7.33334 8.60339 9.64653 10.9166 12.5 10.9166Z" fill="#F2F2F2"/>
+                </svg>
+        </a>
+    </div>
+    <script>
+        const htmlElement = document.querySelector("html")
+        const toggleButton = document.querySelector("#toggle")
+        const toggleButtonSm = document.querySelector("#toggle-sm")
+
+        toggleButton.addEventListener("click", () => toggleDarkMode())
+        toggleButtonSm.addEventListener("click", () => toggleDarkMode())
+        const toggleDarkMode = () => {
+            htmlElement.classList.contains("dark")?
+            htmlElement.classList.remove("dark"):
+            htmlElement.classList.add("dark")
+        }
+    </script>
+</body>
+</html>
